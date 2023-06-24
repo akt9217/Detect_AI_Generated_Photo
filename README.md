@@ -10,7 +10,7 @@ As an active participant on Bitgrit competition https://bitgrit.net/competition/
 and test set for making prediction. You can access them from the provided link after registering.
 Both were in .csv format
 
-## How to Design a good model
+## How to Design a Robust model
 training a deep CNN with conventional layers is not going to help for a variety of datasets and may result in overfitting, The model must learn specific features which can detect manipulation in image.To do so one technique can be to compute co-occurrence matrices directly on the image pixels on each of the red, green and blue
 channels and pass them through a convolutional neural network, thereby allowing the network to learn important features from the co-occurrence matrices.
 
